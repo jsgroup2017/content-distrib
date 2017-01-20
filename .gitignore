@@ -1,0 +1,26 @@
+.DS_Store
+
+# Config
+config.development.json
+config.production.json
+config.qa.json
+config.test.json
+
+cache/*
+!/lib/cache/index.js
+
+# Log
+log/
+log/**/*
+
+npm-debug.log
+node_modules/
+coverage/
+scripts/coverage.svg
+
+persist
+.node-persist/**/*
+public/**/*
+
+workspace/_exif/*
+workspace/_tmp/*
