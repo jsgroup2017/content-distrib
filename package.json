@@ -1,7 +1,7 @@
 {
   "name": "ContentDistrib",
   "version": "1.0.0",
-  "description": "A high performance, just-in-time asset manipulation",
+  "description": "A high performance, just-in-time asset manipulation and content distribution solution.",
   "scripts": {
     "start": "node index.js --node_env=development",
     "test": "standard '**/*.js' && env NODE_ENV=test ./node_modules/.bin/istanbul cover -x '**/workspace/**' --report cobertura --report text --report html --report lcov ./node_modules/mocha/bin/_mocha test -- --require babel-register"
